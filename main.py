@@ -16,7 +16,7 @@ client.start()
 
 admin_id = int("1999796584")
 nome_operatore = ("👮‍♂Admin")
-obbligo_canale = ('S')
+obbligo_canale = ('N')
 if obbligo_canale == "S" or obbligo_canale == "s":
     obbligo = True
     canale_obbligo = ("@givestock")
@@ -908,7 +908,7 @@ async def my_event_handler(e):
                 
                 except:
                     try:
-                        canale_replace = canale_obbligo.replace("@", "givestock")
+                        canale_replace = canale_obbligo.replace("@", "")
                     except:
                         canale_replace = canale_obbligo
                     
