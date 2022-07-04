@@ -808,7 +808,7 @@ async def my_event_handler(e):
         
         
         elif e.text == "/start":
-            await e.respond("⚙️ <b>Pannello di Configurazione\n\n</b>Ecco il <b>pannello di configurazione</b> del tuo shop.\n\n⚠️ <i>» Se non riesci ad orientarti usa apri la guida con l'apposito bottone.</i>\n\n©️Bot sviluppato da @bleizlovesbtc", 
+            await e.respond("⚙️ <b>Pannello di Configurazione\n\n</b>Ecco il <b>pannello di configurazione</b> del tuo shop.\n\n⚠️ <i>» Se non riesci ad orientarti usa apri la guida con l'apposito bottone.</i>\n\n©️Bot sviluppato da @ScognaSeLLer", 
                 buttons=[[Button.inline("👤 Gestione utenti 👤", "gestione_utenti")],
                     [Button.inline("🛍 Shop", "admin_shop"), Button.inline("File 📁", "gestione_file")],
                     [Button.inline("📣 Annuncio", "messaggio_globale"), Button.inline("Pagamenti 💳", "metodi_pagamento")],
@@ -973,7 +973,7 @@ async def my_event_handler(e):
                 
                 saldo = float(saldo_read)
                 
-                await e.respond("👋 Benvenuto Nello ShopBot di @SusySeLLer e @ScognaSeLLer\n\n🛑Il tuo saldo è: " + str(format(saldo, ".2f")) + "€\n\n© Bot sviluppato da @bleizlovesbtc",
+                await e.respond("👋 Benvenuto Nello ShopBot di @SusySeLLer e @ScognaSeLLer\n\n🛑Il tuo saldo è: " + str(format(saldo, ".2f")) + "€\n\n© Bot sviluppato da @ScognaSeLLer",
                     buttons=[[Button.inline("☎ Supporto ☎", "chatlive")],
                     [Button.inline("💵 Saldo 💵", "wallet"), Button.url("📣 News 📣", "https://t.me/givestock")],
                     [Button.inline("🛍 Shop 🛍", "shop"), Button.inline("⚠ ToS ⚠", "tos")]])
@@ -998,7 +998,7 @@ async def CallbackQuery(e):
     
     if user_callback == admin_id or lista_admin.__contains__(str(user_callback)):
         if e.data == b"Home_admin":
-            await e.edit("⚙️ <b>Pannello di Configurazione\n\n</b>Ecco il <b>pannello di configurazione</b> del tuo shop.\n\n⚠️ <i>» Se non riesci ad orientarti usa apri la guida con l'apposito bottone.</i>\n\n©️Bot sviluppato da @bleizlovesbtc", 
+            await e.edit("⚙️ <b>Pannello di Configurazione\n\n</b>Ecco il <b>pannello di configurazione</b> del tuo shop.\n\n⚠️ <i>» Se non riesci ad orientarti usa apri la guida con l'apposito bottone.</i>\n\n©️Bot sviluppato da @ScognaSeLLer", 
                 buttons=[[Button.inline("👤 Gestione utenti 👤", "gestione_utenti")],
                     [Button.inline("🛍 Shop", "admin_shop"), Button.inline("File 📁", "gestione_file")],
                     [Button.inline("📣 Annuncio", "messaggio_globale"), Button.inline("Pagamenti 💳", "metodi_pagamento")],
@@ -2084,7 +2084,7 @@ async def CallbackQuery(e):
                 
                 saldo = float(saldo_read)
                 
-                await e.edit("👋 Benvenuto Nello ShopBot di @SusySeLLer e @ScognaSeLLer\n\n🛑Il tuo saldo è: " + str(format(saldo, ".2f")) + "€\n\n© Bot sviluppato da @bleizlovesbtc",
+                await e.edit("👋 Benvenuto Nello ShopBot di @SusySeLLer e @ScognaSeLLer\n\n🛑Il tuo saldo è: " + str(format(saldo, ".2f")) + "€\n\n© Bot sviluppato da @ScognaSeLLer",
                     buttons=[[Button.inline("☎ Supporto ☎", "chatlive")],
                     [Button.inline("💵 Saldo 💵", "wallet"), Button.url("📣 News 📣", "https://t.me/givestock")],
                     [Button.inline("🛍 Shop 🛍", "shop"), Button.inline("⚠ ToS ⚠", "tos")]])
@@ -2138,7 +2138,7 @@ async def CallbackQuery(e):
 
                 saldo = float(saldo_read)
                 
-                await e.respond("👋 Benvenuto Nello ShopBot di @SusySeLLer e @ScognaSeLLer\n\n🛑Il tuo saldo è: " + str(format(saldo, ".2f")) + "€\n\n© Bot sviluppato da @bleizlovesbtc",
+                await e.respond("👋 Benvenuto Nello ShopBot di @SusySeLLer e @ScognaSeLLer\n\n🛑Il tuo saldo è: " + str(format(saldo, ".2f")) + "€\n\n© Bot sviluppato da @ScognaSeLLer",
                     buttons=[[Button.inline("☎ Supporto ☎", "chatlive")],
                     [Button.inline("💵 Saldo 💵", "wallet"), Button.url("📣 News 📣", "https://t.me/givestock")],
                     [Button.inline("🛍 Shop 🛍", "shop"), Button.inline("⚠ ToS ⚠", "tos")]])
