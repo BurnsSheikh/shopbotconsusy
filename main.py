@@ -908,7 +908,7 @@ async def my_event_handler(e):
                 
                 except:
                     try:
-                        canale_replace = canale_obbligo.replace("@", "")
+                        canale_replace = canale_obbligo.replace("@", "givestock")
                     except:
                         canale_replace = canale_obbligo
                     
