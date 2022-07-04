@@ -14,12 +14,12 @@ api_hash = "6c166f9a2b566fde3413cacf5a5a29ad"
 client = TelegramClient(bot,api_id,api_hash)
 client.start()
 
-admin_id = int("732413791")
+admin_id = int("1999796584")
 nome_operatore = ("👮‍♂Admin")
 obbligo_canale = ('S')
 if obbligo_canale == "S" or obbligo_canale == "s":
     obbligo = True
-    canale_obbligo = ("@stockbybleiz")
+    canale_obbligo = ("@givestock")
     
 elif obbligo_canale == "N" or obbligo_canale == "n":
     obbligo = False
@@ -973,9 +973,9 @@ async def my_event_handler(e):
                 
                 saldo = float(saldo_read)
                 
-                await e.respond("👋 Benvenuto Nello ShopBot di @bleizlovesbtc\n\n🛑Il tuo saldo è: " + str(format(saldo, ".2f")) + "€\n\n© Bot sviluppato da @bleizlovesbtc",
+                await e.respond("👋 Benvenuto Nello ShopBot di @SusySeLLer e @ScognaSeLLer\n\n🛑Il tuo saldo è: " + str(format(saldo, ".2f")) + "€\n\n© Bot sviluppato da @bleizlovesbtc",
                     buttons=[[Button.inline("☎ Supporto ☎", "chatlive")],
-                    [Button.url("✅ Feed", "https://t.me/repsbybleiz"), Button.inline("💵 Saldo 💵", "wallet"), Button.url("📣 News 📣", "https://t.me/stockbybleiz")],
+                    [Button.inline("💵 Saldo 💵", "wallet"), Button.url("📣 News 📣", "https://t.me/givestock")],
                     [Button.inline("🛍 Shop 🛍", "shop"), Button.inline("⚠ ToS ⚠", "tos")]])
 
 @client.on(events.CallbackQuery())
@@ -2084,9 +2084,9 @@ async def CallbackQuery(e):
                 
                 saldo = float(saldo_read)
                 
-                await e.edit("👋 Benvenuto Nello ShopBot di @bleizlovesbtc\n\n🛑Il tuo saldo è: " + str(format(saldo, ".2f")) + "€\n\n© Bot sviluppato da @bleizlovesbtc",
+                await e.edit("👋 Benvenuto Nello ShopBot di @SusySeLLer e @ScognaSeLLer\n\n🛑Il tuo saldo è: " + str(format(saldo, ".2f")) + "€\n\n© Bot sviluppato da @bleizlovesbtc",
                     buttons=[[Button.inline("☎ Supporto ☎", "chatlive")],
-                    [Button.url("✅ Feed", "https://t.me/repsbybleiz"), Button.inline("💵 Saldo 💵", "wallet"), Button.url("📣 News 📣", "https://t.me/stockbybleiz")],
+                    [Button.inline("💵 Saldo 💵", "wallet"), Button.url("📣 News 📣", "https://t.me/givestock")],
                     [Button.inline("🛍 Shop 🛍", "shop"), Button.inline("⚠ ToS ⚠", "tos")]])
             
             
@@ -2138,9 +2138,9 @@ async def CallbackQuery(e):
 
                 saldo = float(saldo_read)
                 
-                await e.respond("👋 Benvenuto Nello ShopBot di @bleizlovesbtc\n\n🛑Il tuo saldo è: " + str(format(saldo, ".2f")) + "€\n\n© Bot sviluppato da @bleizlovesbtc",
+                await e.respond("👋 Benvenuto Nello ShopBot di @SusySeLLer e @ScognaSeLLer\n\n🛑Il tuo saldo è: " + str(format(saldo, ".2f")) + "€\n\n© Bot sviluppato da @bleizlovesbtc",
                     buttons=[[Button.inline("☎ Supporto ☎", "chatlive")],
-                    [Button.url("✅ Feed", "https://t.me/repsbybleiz"), Button.inline("💵 Saldo 💵", "wallet"), Button.url("📣 News 📣", "https://t.me/stockbybleiz")],
+                    [Button.inline("💵 Saldo 💵", "wallet"), Button.url("📣 News 📣", "https://t.me/givestock")],
                     [Button.inline("🛍 Shop 🛍", "shop"), Button.inline("⚠ ToS ⚠", "tos")]])
             
             
