@@ -16,7 +16,7 @@ client.start()
 
 admin_id = int("1999796584")
 nome_operatore = ("👮‍♂Admin")
-obbligo_canale = ('N')
+obbligo_canale = ('S')
 if obbligo_canale == "S" or obbligo_canale == "s":
     obbligo = True
     canale_obbligo = ("@givestock")
